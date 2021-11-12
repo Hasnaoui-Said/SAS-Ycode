@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
+ int palindrone(char str[50]){
+ 	
+ }
+
 int main(){
 	char tab[50];
 	int i,j;
