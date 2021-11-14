@@ -3,9 +3,10 @@
 #include <time.h>
 
 int main(){
+	char jours[7][20] = {"Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"};
     int randomnumber = 0;
 	srand(time(NULL));
-    //int nRandonNumber = Rand()%((nMax+1)-nMin) + nMin;
-    printf("%d\n", nRandonNumber);
+    int nRandonNumber = rand()%10-2;
+    printf("%s\n", jours[nRandonNumber]);
     return 0;
 }
